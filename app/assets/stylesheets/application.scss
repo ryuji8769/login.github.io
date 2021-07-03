@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
 .conteiner {
 	text-align: center;
 }
@@ -21,10 +22,30 @@
 	margin: 20px 0 20px;
 }
 
+#form{
+	color: rgb(204, 204, 204);
+}
+
 input {
 	width: 400px;
 	padding: 10px 15px;
 	font-size: 16px;
 	border-radius: 3px;
 	border: 2px solid #ddd;
+}
+
+#bottan {
+	width: 30%;
+	height: 40px;
+	margin-bottom: 20px;
+	background-color: rgb(103,207,255);
+	color: #fff;
+	border: 1px solid rgb(103,207,255);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.size{
+	color:#1da1f2;
+	font-size: 3em;
 }
