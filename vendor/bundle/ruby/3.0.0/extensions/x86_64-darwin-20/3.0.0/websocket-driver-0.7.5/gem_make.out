@@ -1,0 +1,15 @@
+current directory: /Users/fukumotoryuuji/login_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/fukumotoryuuji/.rbenv/versions/3.0.0/bin/ruby -I /Users/fukumotoryuuji/.rbenv/versions/3.0.0/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210703-19356-9mo07w.rb extconf.rb
+creating Makefile
+
+current directory: /Users/fukumotoryuuji/login_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/fukumotoryuuji/login_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/fukumotoryuuji/login_app/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20210703-19356-39o63c
