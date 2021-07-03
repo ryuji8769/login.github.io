@@ -2,12 +2,12 @@
 
 <%= form_with model: @user, url: user_path, locale: true do |f| %>
 <div class="field">
-  <%= f.label :email %>
+  <%= f.label :email %><br>
   <%= f.text_field :email %>
 </div>
 
 <div class="field">
-  <%= f.label :password %>
+  <%= f.label :password %><br>
   <%= f.password_field :password %>
 </div>
 
